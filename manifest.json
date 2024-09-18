@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "FireFox Mute Auto",
+  "version": "1.0",
+  "description": "Mute all tabs automatically, except for the fixed tabs.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
